@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap");
+
+@font-face {
+	font-family: Tetra;
+	src: url("./assets/fonts/TETRA.otf");
+}
+
+@font-face {
+	font-family: Cabinet;
+	src: url(./assets/fonts/CabinetGrotesk-Variable.ttf);
+}
+
+/* * {
+	transition: all 0.5s;
+} */
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.font-tetra {
+	font-family: Tetra, sans-serif;
+}
+
+.font-worksans {
+	font-family: "Work Sans", sans-serif;
+}
+
+.font-cabinet {
+	font-family: Cabinet, sans-serif;
+}
+
+.font-cabin {
+	font-family: "Cabin Condensed", sans-serif;
+}

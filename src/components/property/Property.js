@@ -3,6 +3,7 @@ import PropertyImg1 from "../../assets/media/PropertyImg1.png";
 import PropertyImg2 from "../../assets/media/PropertyImg2.png";
 import PropertyImg3 from "../../assets/media/PropertyImg3.png";
 import LocationIcon from "../../assets/media/LocationIcon.png";
+import Heading from "../Heading/Heading";
 
 function PropertyCard(props) {
 	return (
@@ -54,21 +55,10 @@ function PropertyCard(props) {
 
 const Property = () => {
 	return (
-		<section className="container mx-auto mt-[102px]">
-			<div className="text-7xl text-center font-cabin font-bold">PROPERTY</div>
-			<div className="grid grid-cols-12">
-				<div className="col-span-1"></div>
-				<div className="col-span-10">
-					<p className="text-base font-worksans text-center mt-4 text-[#5c5c5c]">
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s....
-					</p>
-				</div>
-				<div className="col-span-1"></div>
-			</div>
+		<section className="container mx-auto mt-[102px] py-16">
+			<Heading title="Property" />
 
-			<div className="grid grid-cols-3 gap-x-8 mt-[42px]">
+			<div className="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 2xl:gap-x-8 xl:gap-x-8 lg:gap-x-8 md:gap-x-8 sm:gap-x-0 gap-x-0 2xl:gap-y-0 xl:gap-y-0 lg:gap-y-0 md:gap-y-0 sm:gap-y-4 gap-y-4 mt-[42px]">
 				<PropertyCard img={PropertyImg1} />
 				<PropertyCard img={PropertyImg2} />
 				<PropertyCard img={PropertyImg3} />

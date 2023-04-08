@@ -5,6 +5,8 @@ import Services from "./components/services/Services";
 import About from "./components/about/About";
 import Property from "./components/property/Property";
 import Works from "./components/works/Works";
+import Partners from "./components/partners/Partners";
+import Newsletter from "./components/newsletter/Newsletter";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
 			<About />
 			<Property />
 			<Works />
+			<Partners />
+			<Newsletter />
 			<Footer />
 		</div>
 	);

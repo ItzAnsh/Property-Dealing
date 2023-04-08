@@ -57,7 +57,7 @@ const Services = () => {
 					<div className="col-span-1"></div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-y-10 gap-x-5 pt-10">
+				<div className="grid 2xl:grid-cols-12 xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-8 sm:grid-cols-4 grid-cols-4 gap-y-10 gap-x-5 pt-10">
 					<div className="col-span-4">
 						<Card svg={Service1} title={"PLUMBER"} />
 					</div>
